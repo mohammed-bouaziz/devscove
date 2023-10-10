@@ -34,21 +34,7 @@ export default async function Home() {
         Helping Developers Land Jobs 
       </h1>
       <div className='flex flex-col space-y-20'>
-        <Search />
-      {posts.map((val, i) => {
-      return (
-        <>
-        <Link href={`/${val.id}`}>
-          <Allposts key={i} 
-                   title={val.attributes.title} 
-                   description={val.attributes.description} 
-                   url={val.attributes.featuredImg.data.attributes.formats.thumbnail.url} />
-        </Link>
-         
-        </>
-       )
-     })} 
-
+        <Search articles={posts} /> 
       <NewsLetter />
       </div>
       
