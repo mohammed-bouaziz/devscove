@@ -27,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${montserrat.variable} ${hind.variable}`}>
-      <body className="mx-auto max-w-2xl pt-10 pb-10 flex flex-col">
+      <body className="mx-auto max-w-2xl pt-10 pb-10 flex flex-col p-10">
         <Header />
         {children}
         <Footer />
