@@ -2,6 +2,7 @@ import './globals.css'
 import { Montserrat, Hind } from 'next/font/google'
 import Header from './components/Nav'
 import Footer from './components/Footer'
+import GoogleAnalytics from './components/GoogleAnalytics'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -27,6 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${montserrat.variable} ${hind.variable}`}>
+      <GoogleAnalytics />
       <body className="mx-auto max-w-2xl pt-10 pb-10 flex flex-col p-10">
         <Header />
         {children}

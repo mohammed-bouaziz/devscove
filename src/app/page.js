@@ -26,7 +26,6 @@ async function getData() {
 export default async function Home() {
   const data = await getData()
     const posts = data.data
-    console.log(posts)
    
     return (
       <>

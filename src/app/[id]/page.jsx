@@ -46,7 +46,6 @@ export default async function Post({params}) {
     const data = await getPost(id)
     const post = data.data
     
-    console.log(post)
 
     return (
 
