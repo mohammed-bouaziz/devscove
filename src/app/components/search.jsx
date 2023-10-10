@@ -36,8 +36,7 @@ const Search = ({articles}) => {
             <Link href={`/${article.id}`}>
           <Allposts key={article.id} 
                    title={article.attributes.title} 
-                   description={article.attributes.description} 
-                   url={article.attributes.featuredImg.data.attributes.formats.thumbnail.url} />
+                   description={article.attributes.description}  />
         </Link>
         ))
     }

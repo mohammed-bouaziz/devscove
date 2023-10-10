@@ -1,7 +1,6 @@
 import Image from "next/image"
 
-const Allposts = ({title, description, url}) => {
-    const imgLoad = 'https://devscove-backend-0fdec5ed1fa3.herokuapp.com'+ url
+const Allposts = ({title, description}) => {
 
     return (
         <div className="flex space-x-7 mb-20">
