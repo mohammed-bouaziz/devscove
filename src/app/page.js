@@ -4,8 +4,8 @@ import Link from 'next/link';
 import NewsLetter from './components/newsletter';
 
 export const metadata = {
-  title : "Helping Developers Get Better",
-  description: "If you are Developer, writing software, mobile apps, web apps, machine learning or artificial intelligence, this platform will help you get better, land better jobs, improve your carerr and bring more opportunities your way, you will develop your coding skills, create great projetcs from scartch, understand the tech industry better and succeed as a developer",
+  title : "Helping Developers Land Jobs",
+  description: "Land your dream job as a developer and boost your career",
 
 }
 
@@ -31,7 +31,7 @@ export default async function Home() {
     return (
       <>
       <h1 className='text-center font-bold font-mont text-2xl mt-28 mb-28'>
-        Helping Developers Get Better
+        Helping Developers Land Jobs 
       </h1>
       <div className='flex flex-col space-y-20'>
         <Search />

@@ -20,8 +20,8 @@ const hind = Hind({
 
 
 export const metadata = {
-  title: 'Helping Developpers get better',
-  description: 'If you are Developer, writing software, mobile apps, web apps, machine learning or artificial intelligence, this platform will help you get better, land better jobs, improve your carerr and bring more opportunities your way, you will develop your coding skills, create great projetcs from scartch, understand the tech industry better and succeed as a developer',
+  title: 'Helping Developpers Land Jobs',
+  description: 'Land your dream job as a developer and boost your career',
 }
 
 export default function RootLayout({ children }) {
