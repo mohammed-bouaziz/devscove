@@ -30,9 +30,28 @@ export default async function Home() {
    
     return (
       <>
-      <h1 className='text-center font-bold font-mont text-2xl mt-28 mb-28'>
+      <div className='bg-slate-900 p-6 rounded-lg mt-16 mb-16 text-gray-200'>
+        <h1 className='text-center font-bold font-mont text-2xl mb-10'>
         Helping Developers Land Jobs 
       </h1>
+      <h2 className='font-hind text-lg'>
+        Welcome to our blog dedicated to helping developers land their dream jobs 
+        and boost their careers through a wealth of tutorials, insightful articles, 
+        and personal experiences. <br/>
+        <br/>
+        Whether you're a seasoned developer looking for advanced insights 
+        or just starting your coding journey, 
+        our content is tailored to empower you with the knowledge and skills you need 
+        to succeed in the tech industry.<br/> 
+        <br/>
+        Explore our tutorials, 
+        dive into thought-provoking articles, and gain valuable insights 
+        from our personal experiences to advance your career in 
+        the ever-evolving world of development.<br/> 
+        Join us on the path to professional growth and success.
+      </h2>
+      </div>
+        
       <div className='flex flex-col space-y-20'>
         <Search articles={posts} /> 
       <NewsLetter />
